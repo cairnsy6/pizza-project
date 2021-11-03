@@ -1,0 +1,9 @@
+.card{
+    border-radius:2rem;
+    border:none;
+}
+
+.card img{
+    border-radius: 2rem;
+    border:4px solid white;
+}
