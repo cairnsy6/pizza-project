@@ -20,7 +20,7 @@ body{
 
 
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:720px){
 
     body{
         background-color:teal;
@@ -28,13 +28,19 @@ body{
     body > .carousel{
         width:100%; height:300px; 
     }
-    body > nav{
-        position: sticky;
+    nav{
+        position: -webkit-sticky;
+        position: sticky !important;
+        top: 0;
+        z-index: 1020;
     }
+
+  
+}
 
     
 
-} 
+
 /* @media only screen and (max-width:900px){
     body > .carousel{
         width:600px; height:400px; 
