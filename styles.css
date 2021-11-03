@@ -1,3 +1,8 @@
+body{
+    background-color: rgb(235, 161, 161);
+}
+
+
 .card{
     border-radius:2rem;
     border:none;
@@ -11,3 +16,37 @@
 .carousel { 
     margin: 0 auto;
     width:1000px; height:600px; }
+
+
+ 
+
+@media only screen and (max-width:768px){
+
+    body{
+        background-color:teal;
+    }
+    body > .carousel{
+        width:500px; height:300px; 
+    }
+    body > nav{
+        position: sticky;
+    }
+
+    
+
+} 
+@media only screen and (max-width:900px){
+    body > .carousel{
+        width:600px; height:400px; 
+    }
+} 
+/* @media only screen and (max-width:1024px){
+    body > .carousel{
+        width:700px; height:500px; 
+    }
+} 
+@media only screen and (max-width:1200px){
+    body > .carousel{
+        width:1000px; height:600px; 
+    }
+}  */ 
